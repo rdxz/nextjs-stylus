@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
-import styles from "./styles.styl"
+// import styles from "./styles.styl"
 
 const Home = () => (
   <div>
@@ -13,9 +13,10 @@ const Home = () => (
     <Nav />
 
     <div className='hero'>
-      <h1 className='title'>Welcome to Next.js!</h1>
+      <h1 className='title'>Welcome to Next.js Home page!</h1>
 
-      <div className={styles.stark}>Hi stark</div>
+      {/* <div className={styles.stark}>Hi stark</div> */}
+      <div className={'title styles.stark'}>Hi stark</div>
 
       <p className='description'>
         To get started, edit <code>pages/index.js</code> and save to reload.
