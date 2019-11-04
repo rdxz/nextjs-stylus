@@ -8,8 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@kkb/daji1": "^1.0.8",
     "@zeit/next-stylus": "^1.0.1",
+    "@kkb/daji": "../daji",
     "next": "9.0.2",
+    "next-compose-plugins": "^2.2.0",
+    "next-transpile-modules": "^2.3.1",
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "stylus": "^0.54.7"

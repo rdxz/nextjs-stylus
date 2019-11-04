@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import {Stark} from '@kkb/daji'
 // import styles from "./styles.styl"
 
 const Home = () => (
@@ -14,7 +15,7 @@ const Home = () => (
 
     <div className='hero'>
       <h1 className='title'>Welcome to Next.js Home page!</h1>
-
+      <Stark />
       {/* <div className={styles.stark}>Hi stark</div> */}
       <div className={'title styles.stark'}>Hi stark</div>
 
